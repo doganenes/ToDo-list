@@ -43,7 +43,8 @@ body{
 .paragraph-styling{
   background-color: #fff;
   width: auto;
-  height: 2.4rem;
+  min-height: 2.4rem;
+  height: auto;
   cursor: pointer;
   padding: 0 2rem;
   text-align: center;
