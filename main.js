@@ -12,7 +12,7 @@ addToDoButton.addEventListener("click", () => {
   paragraph.addEventListener("click", function () {
     paragraph.style.textDecoration = "line-through";
     paragraph.style.textDecorationColor = "red";
-    paragraph.style.textDecorationThigitckness = "0.15rem";
+    paragraph.style.textDecorationThickness = "0.15rem";
   });
 
   paragraph.addEventListener("dblclick", function () {
