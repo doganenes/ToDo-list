@@ -16,8 +16,8 @@ body{
 }
 
 #inputField{
-  max-width:25rem;
-  width: 100%; 
+  max-width:20rem;
+  width: 100%;
   vertical-align: middle;
   border: none;
 }
