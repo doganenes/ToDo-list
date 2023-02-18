@@ -8,7 +8,7 @@
 }
 
 body{
-  background-color: rebeccapurple;
+  background-color: rebeccapurple; 
 }
 
 .todoTitle{
@@ -22,7 +22,6 @@ body{
   border: none;
 }
 
-
 #addToDo {
   height: 50px;
   width: 50px;
@@ -34,25 +33,42 @@ body{
   background-color: green;
 }
 
-
-
 .to-dos {
   margin-top: 25px;
 }
 
 .paragraph-styling{
   background-color: #fff;
-  width: auto;
+  width: 100%;
+  max-width: 90vw;
   min-height: 2.4rem;
   height: auto;
   cursor: pointer;
-  padding: 0 2rem;
+  padding: 0 1rem;
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   font-size: 1.2rem;
   border-radius: 0.25rem;
+  word-wrap: break-word;
 }
+
+@media (min-width: 576px) {
+  .paragraph-styling {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .paragraph-styling {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .paragraph-styling {
+    width: 25%;
+  }
+}
+
 
