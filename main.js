@@ -19,4 +19,8 @@ addToDoButton.addEventListener("click", () => {
   paragraph.addEventListener("dblclick", function () {
     paragraph.removeChild(paragraph);
   });
+  toDoContainer.style.display = "flex";
+  toDoContainer.style.flexDirection = "column";
+  toDoContainer.style.alignItems = "center";
+  toDoContainer.style.justifyContent = "center";
 });
