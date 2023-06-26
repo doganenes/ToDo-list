@@ -1,79 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
 }
 
 body {
-  min-height: 100vh;
-  background-color: rebeccapurple;
+    min-height: 100vh;
+    background: #42275a;
+    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+    background: linear-gradient(to right, #734b6d, #42275a);
 }
 
 .todoTitle {
-  letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 #inputField {
-  max-width: 20rem;
-  width: 100%;
-  vertical-align: middle;
-  border: none;
+    max-width: 20rem;
+    width: 100%;
+    vertical-align: middle;
+    border: none;
 }
 
 #inputField:focus {
-  border: none;
-  outline: none;
-}
-
-#addToDo {
-  height: 50px;
-  width: 50px;
-  border: 1px solid black;
-  vertical-align: middle;
-  font-size: 30px;
-  margin-left: 5px;
-  border-radius: 5px;
-  background-color: green;
-}
-
-.todos {
-  margin-top: 25px;
-}
-
-.paragraph-styling {
-  background-color: #fff;
-  width: 100%;
-  max-width: 90vw;
-  min-height: 2.4rem;
-  height: auto;
-  cursor: pointer;
-  padding: 0 1rem;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  font-size: 1.2rem;
-  border-radius: 0.25rem;
-  word-wrap: break-word;
+    border: none;
+    outline: none;
 }
 
 @media (min-width: 576px) {
-  .paragraph-styling {
-    width: 50%;
-  }
+    .paragraph-styling {
+        width: 50%;
+    }
 }
 
 @media (min-width: 768px) {
-  .paragraph-styling {
-    width: 33.33%;
-  }
+    .paragraph-styling {
+        width: 33.33%;
+    }
 }
 
 @media (min-width: 992px) {
-  .paragraph-styling {
-    width: 25%;
-  }
+    .paragraph-styling {
+        width: 25%;
+    }
 }

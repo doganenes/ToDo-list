@@ -1,13 +1,22 @@
- <?php
-    include('db_connection.php');
+<?php
+include('db_connection.php');
 
-    if (!$conn) {
-        die("Database connection failed.");
+$sql = "SELECT * FROM tbltodos";
+$result = $connection->query($sql);
+
+if ($result->num_rows > 0) {
+    while ($row = $result->fetch_assoc()) {
+        $taskId = $row['id'];
+        $taskName = $row['task'];
+        $completed = $row['status'];
+
+        $taskClass = $completed ? 'completed' : '';
+
+        echo "<div class='task'>";
+        echo "<span class='$taskClass'>$taskName</span>";
+        echo "<a href='delete.php?id=$taskId' class='btn btn-danger btn-sm'>Delete</a>";
+        echo "</div>";
     }
-
-    $stmt = $conn->query("SELECT * FROM tbltodos");
-    $todos = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    $json = json_encode($todos);
-
-    echo $json;
-    ?> 
+} else {
+    echo "No todos found.";
+}
