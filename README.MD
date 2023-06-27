@@ -11,7 +11,7 @@ When a new task is added, it is saved in the database. Status value is 0.
 ![todo-1](https://github.com/doganenes/quiz-app/assets/86846812/5290a8d9-adc5-478c-924d-d3c2501dbef6)
 ![sql-1](https://github.com/doganenes/quiz-app/assets/86846812/72b5c6b1-9634-4da1-927e-cb07a5341fc7)
 
-Then, we add 9 todos more:
+Then, we add 9 tasks more:
 ![todo-2](https://github.com/doganenes/quiz-app/assets/86846812/22bc96ea-f174-4e78-a2f2-68682a325b2b)
 ![sql-2](https://github.com/doganenes/quiz-app/assets/86846812/135b46e3-bedc-4184-aac0-cac23b9f59a7)
 
