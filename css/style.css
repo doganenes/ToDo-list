@@ -1,49 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital@1&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 
 body {
-    min-height: 100vh;
-    background: #42275a;
-    background: -webkit-linear-gradient(to right, #734b6d, #42275a);
-    background: linear-gradient(to right, #734b6d, #42275a);
+  min-height: 100vh;
+  background: #42275a;
+  background: -webkit-linear-gradient(to right, #734b6d, #42275a);
+  background: linear-gradient(to right, #734b6d, #42275a);
 }
 
 .todoTitle {
-    letter-spacing: 2px;
+  letter-spacing: 2px;
 }
 
 #inputField {
-    max-width: 20rem;
-    width: 100%;
-    vertical-align: middle;
-    border: none;
+  max-width: 20rem;
+  width: 100%;
+  vertical-align: middle;
+  border: none;
 }
 
 #inputField:focus {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
+}
+
+.todos {
+  margin-top: 1rem;
+}
+
+.task {
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+  max-width: 90vw;
+  min-height: 2.5rem;
+  height: auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0.8rem 0;
+  flex-direction: column;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  word-wrap: break-word;
+}
+
+.deleteBtn {
+  position: absolute;
+  right: 0;
+  min-height: 2.5rem;
+  height: 100%;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {
-    .paragraph-styling {
-        width: 50%;
-    }
+  .paragraph-styling {
+    width: 50%;
+  }
 }
 
 @media (min-width: 768px) {
-    .paragraph-styling {
-        width: 33.33%;
-    }
+  .paragraph-styling {
+    width: 33.33%;
+  }
 }
 
 @media (min-width: 992px) {
-    .paragraph-styling {
-        width: 25%;
-    }
+  .paragraph-styling {
+    width: 25%;
+  }
 }
