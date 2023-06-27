@@ -6,7 +6,7 @@ Users can add a new task or delete an existing task. Added or deleted tasks are 
 ​![db](https://github.com/doganenes/quiz-app/assets/86846812/a03c8a4f-f118-4b19-9182-01f8c1a69968)
 
 ---
-## Usage 
+## How to run:
 When a new task is added, it is saved in the database. Status value is 0.
 ![todo-1](https://github.com/doganenes/quiz-app/assets/86846812/5290a8d9-adc5-478c-924d-d3c2501dbef6)
 ![sql-1](https://github.com/doganenes/quiz-app/assets/86846812/72b5c6b1-9634-4da1-927e-cb07a5341fc7)
